@@ -2,7 +2,7 @@
 
 'datas/New_Dataset' is the directory of data files, in which the last column is the label of each instance.
 
-'results/' contains the experimental outputs for the three RQs in terms of two effort-aware indicators and an example for draw the boxplot.
+'results/' contains the experimental outputs for the three RQs in terms of two effort-aware indicators and an example for drawing the boxplot.
 
 'data_helper.py' implements the data preprocess that generates the triplets used in this work.
 
