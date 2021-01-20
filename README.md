@@ -23,4 +23,6 @@
 
 ## Run
 
-We only need to run the script with ````python CT_Model.py```` and the results will save in the directory ````datas/CT_ALL_output````
+````python CT_Model.py```` 
+
+The results will save in the directory ````datas/CT_ALL_output````
