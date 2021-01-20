@@ -2,7 +2,7 @@
 
 ## Contents
 
-````datas/New_Dataset```` is the directory of data files, in which the last column is the label of each instance.
+````datas/dataset```` is the directory of data files, in which the last column is the label of each instance.
 
 ````results/```` contains the experimental outputs for the three RQs in terms of two effort-aware indicators and an example for drawing the boxplot.
 
@@ -12,7 +12,9 @@
 
 ````classifiers.py```` contains the classifier used in this work.
 
-````CT_Model.py```` implements the whole model and saves the results in a specific directory, which also contains the default parameters.
+````indicator.py```` implements the used two effort-aware indicators.
+
+````model.py```` implements the whole model and saves the results in a specific directory, which also contains the default parameters.
 
 ## Dependencies
 * Python 3.6
@@ -23,6 +25,6 @@
 
 ## Run
 
-````python CT_Model.py```` 
+````python model.py```` 
 
-The results will save in the directory ````datas/CT_ALL_output````
+The results will save in the directory ````results/````
