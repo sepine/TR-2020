@@ -23,8 +23,15 @@
 * Numpy
 * Scikit-learn
 
-## Run
+## Quickly Start
 
-````python model.py```` 
+(1) Create the subdirectory ````temps/```` in the directory ````datas/````
 
-The results will save in the directory ````results/````
+(2) Run ````python model.py```` 
+
+(3) The results will save in the directory ````results/````
+
+
+## Results
+
+We upload the results of our CDFE methon (in the directory ````results/````) in terms of two effort-aware indicators (i.e., EARecall and EAF-measure) and two non-effort-aware indicators (i.e., AUC and MCC)

@@ -344,12 +344,12 @@ def test_all_data(paths, params, outpath):
 
 
 if __name__ == '__main__':
-    params = {"batch_size": 32, 'l2': 0.1, "fea_dim": 6, "layer_num": 2, "hidden_dim": 16,
+    params = {"batch_size": 32, 'l2': 0.1, "fea_dim": 14, "layer_num": 2, "hidden_dim": 16,
               "output_dim": 4, "num_epoch": 30, "repeat_num": 50}
 
     data_path = 'datas/dataset'
 
-    out_path = 'datas/results'
+    out_path = './results'
 
     test_all_data(data_path, params, out_path)
 
